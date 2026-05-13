@@ -5,8 +5,8 @@ import com.jozze.playground.topic01_kotlin_basics.topic01Subtopics
 import com.jozze.playground.topic02_kotlin_advanced.topic02Subtopics
 import com.jozze.playground.topic03_android_basics.runTopic03OverviewDemo
 import com.jozze.playground.topic04_android_advanced.runTopic04OverviewDemo
-import com.jozze.playground.topic05_coroutines.runTopic05OverviewDemo
-import com.jozze.playground.topic06_flows.runTopic06OverviewDemo
+import com.jozze.playground.topic05_coroutines.topic05Subtopics
+import com.jozze.playground.topic06_flows.topic06Subtopics
 import com.jozze.playground.topic07_jetpack_compose.runTopic07OverviewDemo
 import com.jozze.playground.topic08_clean_architecture.runTopic08OverviewDemo
 import com.jozze.playground.topic09_mvvm.runTopic09OverviewDemo
@@ -36,8 +36,8 @@ object LearningCatalog {
         topic("topic02", "Kotlin Advanced", "Extensions, higher-order functions, lambdas, scope functions, delegation, sealed types, generics, inline/reified, aliases, objects, and exceptions.", "Shared", topic02Subtopics()),
         topic("topic03", "Android Basics", "Lifecycle, context, intents, manifest, resources, permissions, legacy UI, RecyclerView, and ConstraintLayout.", "Android", ::runTopic03OverviewDemo),
         topic("topic04", "Android Advanced", "WorkManager, services, receivers, providers, handlers, custom views, insets, PiP, and IPC.", "Android", ::runTopic04OverviewDemo),
-        topic("topic05", "Coroutines", "Builders, dispatchers, suspend functions, jobs, scopes, structured concurrency, cancellation, exceptions, and channels.", "Shared", ::runTopic05OverviewDemo),
-        topic("topic06", "Flows", "Cold and hot streams, builders, operators, context preservation, exception handling, StateFlow, SharedFlow, stateIn, and shareIn.", "Shared", ::runTopic06OverviewDemo),
+        topic("topic05", "Coroutines", "Builders, dispatchers, suspend functions, jobs, scopes, structured concurrency, cancellation, exceptions, and channels.", "Shared", topic05Subtopics()),
+        topic("topic06", "Flows", "Cold and hot streams, builders, operators, context preservation, exception handling, StateFlow, SharedFlow, stateIn, and shareIn.", "Shared", topic06Subtopics()),
         topic("topic07", "Jetpack Compose", "Declarative UI, UDF, recomposition, state, layouts, lists, modifiers, side effects, CompositionLocal, and theming.", "UI", ::runTopic07OverviewDemo, isUiFocused = true),
         topic("topic08", "Clean Architecture", "Dependency rule, domain/data/presentation layers, repositories, and data mapping.", "Shared", ::runTopic08OverviewDemo),
         topic("topic09", "MVVM", "Model, View, ViewModel, UDF, StateFlow, one-off events, lifecycle, and testing shape.", "UI", ::runTopic09OverviewDemo, isUiFocused = true),

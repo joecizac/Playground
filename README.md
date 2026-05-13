@@ -21,9 +21,9 @@ The source tree is the primary study material. The Android app is a runner/viewe
 - [x] Include right-way and wrong-way examples in comments.
 
 ### Phase 2: Coroutines And Flows
-- [ ] Implement `topic05_coroutines`.
-- [ ] Implement `topic06_flows`.
-- [ ] Log coroutine lifecycle, cancellation, exceptions, channels, and flow emissions.
+- [x] Implement `topic05_coroutines`.
+- [x] Implement `topic06_flows`.
+- [x] Log coroutine lifecycle, cancellation, exceptions, channels, and flow emissions.
 
 ### Phase 3: Jetpack Compose
 - [ ] Implement `topic07_jetpack_compose` as screen-first demos.
