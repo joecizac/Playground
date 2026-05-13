@@ -7,7 +7,7 @@ import com.jozze.playground.topic03_android_basics.runTopic03OverviewDemo
 import com.jozze.playground.topic04_android_advanced.runTopic04OverviewDemo
 import com.jozze.playground.topic05_coroutines.topic05Subtopics
 import com.jozze.playground.topic06_flows.topic06Subtopics
-import com.jozze.playground.topic07_jetpack_compose.runTopic07OverviewDemo
+import com.jozze.playground.topic07_jetpack_compose.topic07Subtopics
 import com.jozze.playground.topic08_clean_architecture.runTopic08OverviewDemo
 import com.jozze.playground.topic09_mvvm.runTopic09OverviewDemo
 import com.jozze.playground.topic10_mvi.runTopic10OverviewDemo
@@ -38,7 +38,7 @@ object LearningCatalog {
         topic("topic04", "Android Advanced", "WorkManager, services, receivers, providers, handlers, custom views, insets, PiP, and IPC.", "Android", ::runTopic04OverviewDemo),
         topic("topic05", "Coroutines", "Builders, dispatchers, suspend functions, jobs, scopes, structured concurrency, cancellation, exceptions, and channels.", "Shared", topic05Subtopics()),
         topic("topic06", "Flows", "Cold and hot streams, builders, operators, context preservation, exception handling, StateFlow, SharedFlow, stateIn, and shareIn.", "Shared", topic06Subtopics()),
-        topic("topic07", "Jetpack Compose", "Declarative UI, UDF, recomposition, state, layouts, lists, modifiers, side effects, CompositionLocal, and theming.", "UI", ::runTopic07OverviewDemo, isUiFocused = true),
+        topic("topic07", "Jetpack Compose", "Declarative UI, UDF, recomposition, state, layouts, lists, modifiers, side effects, CompositionLocal, and theming.", "UI", topic07Subtopics()),
         topic("topic08", "Clean Architecture", "Dependency rule, domain/data/presentation layers, repositories, and data mapping.", "Shared", ::runTopic08OverviewDemo),
         topic("topic09", "MVVM", "Model, View, ViewModel, UDF, StateFlow, one-off events, lifecycle, and testing shape.", "UI", ::runTopic09OverviewDemo, isUiFocused = true),
         topic("topic10", "MVI", "Intent, model/state, renderer, reducer, side effects, and MVVM comparison.", "UI", ::runTopic10OverviewDemo, isUiFocused = true),

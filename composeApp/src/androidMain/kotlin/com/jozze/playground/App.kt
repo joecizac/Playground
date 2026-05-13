@@ -28,6 +28,7 @@ import com.jozze.playground.core.catalog.LearningCatalog
 import com.jozze.playground.core.catalog.LearningSubtopic
 import com.jozze.playground.core.catalog.LearningTopic
 import com.jozze.playground.core.logging.AndroidLearningLogger
+import com.jozze.playground.topic07_jetpack_compose.ComposeTopicDemo
 
 @Composable
 @Preview
@@ -68,7 +69,7 @@ fun App() {
                                 selectedSubtopic = subtopic
                                 subtopic.run(logger)
                                 latestRunMessage = if (subtopic.isUiFocused) {
-                                    "${topic.title}: UI-focused placeholder selected. Detailed screen demos arrive in later phases."
+                                    "${topic.title}: UI demo rendered on screen."
                                 } else {
                                     "${topic.title}: output written to Logcat with tag Playground.${topic.id.replaceFirstChar { it.uppercase() }}."
                                 }
@@ -134,11 +135,7 @@ private fun TopicCard(
                         Text(if (subtopic.isUiFocused) "Open UI Demo" else "Run Logcat Demo")
                     }
                     if (selectedSubtopic?.id == subtopic.id && subtopic.isUiFocused) {
-                        Text(
-                            text = "Phase 0 UI placeholder. Later phases will replace this with an interactive screen for ${topic.title}.",
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.secondary,
-                        )
+                        ComposeTopicDemo(subtopicId = subtopic.id)
                     }
                 }
             }

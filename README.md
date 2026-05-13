@@ -26,8 +26,8 @@ The source tree is the primary study material. The Android app is a runner/viewe
 - [x] Log coroutine lifecycle, cancellation, exceptions, channels, and flow emissions.
 
 ### Phase 3: Jetpack Compose
-- [ ] Implement `topic07_jetpack_compose` as screen-first demos.
-- [ ] Show UI-related learning output on screen.
+- [x] Implement `topic07_jetpack_compose` as screen-first demos.
+- [x] Show UI-related learning output on screen.
 
 ### Phase 4: Architecture, MVVM, MVI, Patterns
 - [ ] Implement `topic08_clean_architecture`.
