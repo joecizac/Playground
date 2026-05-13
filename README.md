@@ -30,10 +30,10 @@ The source tree is the primary study material. The Android app is a runner/viewe
 - [x] Show UI-related learning output on screen.
 
 ### Phase 4: Architecture, MVVM, MVI, Patterns
-- [ ] Implement `topic08_clean_architecture`.
-- [ ] Implement `topic09_mvvm`.
-- [ ] Implement `topic10_mvi`.
-- [ ] Implement `topic13_design_patterns`.
+- [x] Implement `topic08_clean_architecture`.
+- [x] Implement `topic09_mvvm`.
+- [x] Implement `topic10_mvi`.
+- [x] Implement `topic13_design_patterns`.
 
 ### Phase 5: Multi-Modular Architecture And DI
 - [ ] Implement `topic11_multi_modular_architecture`.
